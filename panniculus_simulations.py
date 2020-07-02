@@ -243,6 +243,7 @@ def RunSimulation(mesh_name,simulation_has_PC):
         F = I + grad(r)
         J = det(F)
         PK2 = PK2_stress(r)
+        #Cauchy stress tensor
         cauchy_stress = (1./J) * F * PK2 * F.T
         
         #Von Mises
@@ -358,7 +359,6 @@ def RunSimulation(mesh_name,simulation_has_PC):
             print("### LOAD STEP %i / %i successfully completed, LOAD: %.4f" % (N+1,nstep,applied_traction(t)))
             print("-----------------------------------------------------------")
             sys.stdout.flush()
-    
     
     if comm.rank == 0: # only proc 0 should print this
         print('Time for computation: %.1f min' % ( (time.time()-start)/60. ))

@@ -146,14 +146,7 @@ for mesh_index in range(0,len(mesh_names)):
                 if (float(split_line[cauchy_indices[n]])<min_cauchy[n]): min_cauchy[n] = float(split_line[cauchy_indices[n]])
                 if (float(split_line[green_inidices[n]])<min_green[n]): min_green[n] = float(split_line[green_inidices[n]])
             
-            if (float(split_line[equiv_strain_idx])>max_equiv_strain): 
-                max_equiv_strain = float(split_line[equiv_strain_idx])
-#                vx1 = all_coords[int(split_line[v1_index])]
-#                vx2 = all_coords[int(split_line[v2_index])]
-#                vx3 = all_coords[int(split_line[v3_index])]
-#                vx4 = all_coords[int(split_line[v4_index])]
-#                centr = compute_centroid(vx1,vx2,vx3,vx4)
-#                print(line_counter)
+            if (float(split_line[equiv_strain_idx])>max_equiv_strain): max_equiv_strain = float(split_line[equiv_strain_idx])
             if (float(split_line[equiv_strain_idx])<min_equiv_strain): min_equiv_strain = float(split_line[equiv_strain_idx])
             if (float(split_line[equiv_strain_idx])>threshold_equiv_strain): high_strain_counter = high_strain_counter + 1
                 

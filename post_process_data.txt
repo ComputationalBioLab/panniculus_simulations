@@ -1,0 +1,45 @@
+--------------------------------------------------------------------- 
+Analysing post_process/MESH_1.geo-CELL.csv
+Mesh MESH_1.geo has 904 nodes, 4161 elements, 7.0 domains. 
+CSV file has 4160 cells and 4161 rows 
+Von mises range: 0.0 - 0.0808563 MPa
+Equivalent strain range: 0.0 - 0.197793
+Number of Von mises above 100000.0 Pa threshold: 0 which is 0.0 percent 
+Number of equivalent strain above 2.0 threshold: 0 which is 0.0 percent 
+--------------------------------------------------------------------- 
+--------------------------------------------------------------------- 
+Analysing post_process/MESH_2.geo-CELL.csv
+Mesh MESH_2.geo has 8472 nodes, 44686 elements, 7.0 domains. 
+CSV file has 44685 cells and 44686 rows 
+Von mises range: 0.0 - 0.12175699999999999 MPa
+Equivalent strain range: 0.0 - 1.54798
+Number of Von mises above 100000.0 Pa threshold: 11 which is 0.024616210893792238 percent 
+Number of equivalent strain above 2.0 threshold: 0 which is 0.0 percent 
+--------------------------------------------------------------------- 
+--------------------------------------------------------------------- 
+Analysing post_process/MESH_3.geo-CELL.csv
+Mesh MESH_3.geo has 25727 nodes, 141089 elements, 7.0 domains. 
+CSV file has 141088 cells and 141089 rows 
+Von mises range: 0.0 - 0.124441 MPa
+Equivalent strain range: 0.0 - 3.00849
+Number of Von mises above 100000.0 Pa threshold: 48 which is 0.03402107889346441 percent 
+Number of equivalent strain above 2.0 threshold: 429 which is 0.30406339261033816 percent 
+--------------------------------------------------------------------- 
+--------------------------------------------------------------------- 
+Analysing post_process/MESH_4.geo-CELL.csv
+Mesh MESH_4.geo has 41350 nodes, 229124 elements, 7.0 domains. 
+CSV file has 229123 cells and 229124 rows 
+Von mises range: 0.0 - 0.12602 MPa
+Equivalent strain range: 0.0 - 4.57434
+Number of Von mises above 100000.0 Pa threshold: 80 which is 0.03491559155740996 percent 
+Number of equivalent strain above 2.0 threshold: 673 which is 0.2937274139767113 percent 
+--------------------------------------------------------------------- 
+--------------------------------------------------------------------- 
+Analysing post_process/MESH_4-NOPC.geo-CELL.csv
+Mesh MESH_4.geo has 41350 nodes, 229124 elements, 7.0 domains. 
+CSV file has 229123 cells and 229124 rows 
+Von mises range: 0.0 - 0.180363 MPa
+Equivalent strain range: 0.0 - 5.27154
+Number of Von mises above 100000.0 Pa threshold: 693 which is 0.3024563118660638 percent 
+Number of equivalent strain above 2.0 threshold: 2475 which is 1.0802011138073706 percent 
+--------------------------------------------------------------------- 

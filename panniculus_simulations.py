@@ -365,11 +365,11 @@ def RunSimulation(mesh_name,simulation_has_PC):
         sys.stdout.flush()
         
 #FOR CONVERGENCE TESTS
-mesh_names = ['MESH-PC-COARSE.geo','MESH-PC-FINE.geo', 'MESH-1p2-PC.geo', 'MESH099-PC.geo', 'MESH099-PC.geo']
+mesh_names = ['MESH_1.geo','MESH_2.geo', 'MESH_3.geo', 'MESH_4.geo', 'MESH_4.geo']
 has_pcs = [True,True,True,True,False] #last mesh without PC, convergence with PC only
 
 #For single simulations...
-#mesh_names = ['MESH-PC-COARSE.geo']
+#mesh_names = ['MESH_1']
 #has_pcs = [True]
 for i in range(0,len(mesh_names)):
         RunSimulation(mesh_names[i],has_pcs[i])

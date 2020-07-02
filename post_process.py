@@ -16,8 +16,8 @@ def compute_distance(v1,v2):
     return sqrt((v1[0]-v2[0])**2 + (v1[1]-v2[1])**2 + + (v1[2]-v2[2])**2)
         
 mesh_dir = 'meshes/';
-mesh_names = ['MESH-PC-COARSE.geo','MESH-PC-FINE.geo', 'MESH-1p2-PC.geo','MESH099-PC.geo', 'MESH099-PC.geo']
-csv_filenames = ['MESH-PC-COARSE.geo','MESH-PC-FINE.geo', 'MESH-1p2-PC.geo','MESH099-PC.geo', 'MESH099-NOPC.geo']
+mesh_names = ['MESH_1.geo','MESH_2.geo', 'MESH_3.geo', 'MESH_4.geo', 'MESH_4.geo']
+csv_filenames = ['MESH_1.geo','MESH_2.geo', 'MESH_3.geo', 'MESH_4.geo', 'MESH_4-NOPC.geo']
 csv_dir = 'post_process/'
 
 #point (centroid) of max vequiv strain
